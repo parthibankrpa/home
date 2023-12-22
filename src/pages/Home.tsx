@@ -11,7 +11,7 @@ function Home() {
 .</p>
 						<div className="atf-main-btn aos-init" data-aos="fade-up" data-aos-duration="1000"> 
 							<a href="#hire" className="atf-themes-btn me-4">Hire Me</a>
-							<a href="/resume.pdf" className="atf-themes-btn">Download Cv</a>
+							<a href="/home/resume.pdf" className="atf-themes-btn">Download Cv</a>
 						</div>
 						<div className="atf-banner-social">
 							<ul className="atf-banner-icon  list-unstyled">

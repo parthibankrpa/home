@@ -1,0 +1,125 @@
+{
+    "name": "PARTHIBAN K",
+    "designation": "Senior Software Engineer",
+    "location": "Bangalore",
+    "email": "parthibankrpa@gmail.com",
+    "phone": "+918904757529",
+    "linkedin": "https://www.linkedin.com/in/parthibankrpa/",
+    "professional_summary": "Senior software Engineer with 12+ years of Technical experience in solution analysis, design, development and implementation of Enterprise Application modules. Excellent experience in various web technologies, programming languages, Also taken care of Mentoring, and training. Moderate knowledge on multiple AWS services and tools. I am also having 5 years of experience with leading a team and owning the team deliverables.",
+    "skills": [
+      "JavaScript",
+      "React Js",
+      "Redux",
+      "Nodejs",
+      "HTML",
+      "CSS",
+      "AWS",
+      "Jenkin & CICD",
+      "Git",
+      "Web performance optimisation",
+      "Observability",
+      "Accessibility",
+      "Data dog",
+      "Snyk",
+      "Pager duty",
+      "Sonar qube",
+      "Docker"
+    ],
+    "roles": [
+      {
+        "title": "Senior Software Engineer",
+        "company": "Walmart",
+        "duration": "January 2023 - November 2023",
+        "responsibilities": [
+          "Worked on api integrations and internal developer tools",
+          "Worked on production support and bug fixes on internal react application"
+        ]
+      },
+      {
+        "title": "Staff Software Engineer",
+        "company": "Bazaarvoice",
+        "duration": "December 2021 - January 2023",
+        "responsibilities": [
+          "Leading a team with the responsibility of quarterly deliverables",
+          "Taken ownership for build and deployment pipeline(CICD), code review, implemented branch protection policies.",
+          "Taken ownership for configuring auto scaling groups in AWS.",
+          "Taken ownership for maintaining the Datadog and Pagerduty configuration and on call schedules",
+          "Designed and developed a React application with ~600 million pageview in a peak day",
+          "Contributed to 2 years roadmap planning.",
+          "Built and delivered a Minimum Viable Product within a quarter",
+          "Built the React MVP with 75% mobile and above 90% in desktop performance",
+          "Built the React MVP with 100% ADA on lighthouse evaluation.",
+          "Presented a global engineering about the hurdles and achievements",
+          "Mentoring new joiners and interns",
+          "Taken ownership of Pagerduty scheduling for on-call support",
+          "Presented Brownbag about Critical Rendering path"
+        ]
+      },
+      {
+        "title": "Technical Lead",
+        "company": "247ai",
+        "duration": "April 2018 - April 2020",
+        "responsibilities": [
+          "Was leading a team of 7 members and taking ownership for the team’s deliver.",
+          "Contributing to UI/UX wireframe development.",
+          "Bring the boilerplate / code scaffolding",
+          "Design the UI components on React",
+          "Representing UI team to set the API contract with API team",
+          "Unit testing and system integration testing of the developed code.",
+          "Provide production support for the deployed project till it is stabilized"
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "247ai",
+        "duration": "July 2013 - April 2018",
+        "responsibilities": [
+          "As a team member I was actively involved in the below phases of project.",
+          "Played a key role in implementation of customization of various components e.g: product and support mapping of Custom UI states, various conversion processes of these projects.",
+          "Analysis of requirements for new project and impact analysis.",
+          "Preparation of High Level & Low Level Design to meet the frequent changes of the projects.",
+          "Development of code as per the business requirements",
+          "Unit testing and system integration testing of the developed code.",
+          "Providing fixes to the issues identified in testing phase.",
+          "Provide production support for the deployed project till it is stabilized"
+        ]
+      },
+      {
+        "title": "Programmer Analyst",
+        "company": "Cognizant",
+        "duration": "Feb 2012 - April 2013",
+        "responsibilities": [
+          "Involved in developing responsive page prototypes for client demos",
+          "Got deployed in SAP Labs and NetApps as a consultant for short-term bug fixing",
+          "Also worked as a frontend developer in a larger size team(50 members) for a Health care product development",
+          "Developed applications using EXtjs 4."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Bostnic Software",
+        "duration": "Feb 2011 - Feb 2012",
+        "responsibilities": [
+          "Developed Single page mobile Web application Using Sencha Touch",
+          "Also developed Mobile Hybrid application with PhoneGap and Apache Cordova"
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Mongodb for Javascript developers",
+        "link": "https://university.mongodb.com/course_completion/f3b29671-6c52-4965b882-bd34cc45c01e/printable"
+      },
+      {
+        "title": "Understanding weird parts of Javascript",
+        "link": "https://www.udemy.com/certificate/UC-1c6e93a5-0df3-4af9-bff3be6a82baabde/"
+      },
+      {
+        "title": "Linkedin CSS Assessment"
+      },
+      {
+        "title": "LinkedIn Javascript Assessment"
+      }
+    ],
+    "academic_qualification": "Master of Computer Applications, Govt. Arts college - Coimbatore -2009"
+  }

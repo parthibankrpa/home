@@ -1,24 +1,89 @@
+:root {
+    --thm-font: 'Quicksand', sans-serif;
+    --thm-base: #2d3436;
+    --thm-color: #3498db;
+    --thm-black: #2d3436;
+    --thm-white: #ffffff;
+    --thm-ase: #afb2bf;
+    --thm-gray: #8e8e8e;
+    --thm-f6: #F1F8FF;
+    --thm-fb: #f6f6f6;
+    --thm-f3: #f3f3f3;
+}
+h5.profile-title {
+    color: var(--thm-color);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+h2.profile-name  {
+    color: var(--thm-white);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--thm-font);
+    font-size: 40px;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+
+}
+@media only screen and (min-width: 768px) {
+    .flash-container {
+        height: 100vh;
+    }
+}
+.social-connect ul li{
+    display: inline-block;
+}
+@media only screen and (max-width: 991px) {
+    .social-connect ul li a {
+        height: 45px;
+        width: 45px;
+        line-height: 45px;
+        font-size: 20px;
+        margin: 0 10px auto auto;
+    }
+}
+    .social-connect ul li a {
+        display: inline-block;
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        text-align: center;
+        color: var(--thm-white);
+        font-size: 25px;
+        margin: 0 20px auto auto;
+        background: var(--thm-color);
+        border-radius: 50%;
+        -moz-transition: all 0.3s ease-in-out 0s;
+        -ms-transition: all 0.3s ease-in-out 0s;
+        -o-transition: all 0.3s ease-in-out 0s;
+        -webkit-transition: all 0.5s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+    
+}
+.social-connect ul li a:hover {
+    background: var(--thm-white);
+    color: var(--thm-color);;
+}
+
 .container-fluid {
     background-color: #2d394b;
     width: 100%;
-    height: 100vh;
     color: #8e8e8e;
 }
 
-.border {
-    border: 1px solid red;
-}
 
 .profile-image-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 
 }
 
 .flash-container {
     display: flex;
-    height: 100vh;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -27,15 +92,27 @@
 .flash-container .summary {
     font-family: 'Quicksand';
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    margin: 25px 0;
 }
 
 .profile-image {
-    height: 400px;
-    width: 400px;
+    color: var(--thm-color);
+    height: 250px;
+    width: 250px;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 10px solid;
-    border-radius: 200px;
+    border: 7px solid;
+    border-radius: 125px;
 
+}
+.btn-outline{
+    border-color: var(--thm-color) !important;
+    color: var(--thm-white) !important;
+}
+.btn-outline:hover{
+    border-color: var(--thm-color) !important;
+    background-color: var(--thm-color) !important;;
+    color: var(--thm-white) !important;
 }

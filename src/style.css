@@ -32,10 +32,14 @@ h2.profile-name  {
         height: 100vh;
     }
 }
+
 .social-connect ul li{
     display: inline-block;
 }
 @media only screen and (max-width: 991px) {
+    .social-connect {
+        margin: 20px 0;
+    }
     .social-connect ul li a {
         height: 45px;
         width: 45px;

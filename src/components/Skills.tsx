@@ -19,7 +19,7 @@ function Skills() {
   }, [ResumeData]);
 
   return (
-    <Row>
+    <Row className=" my-[10px]">
       <h3 className="text-[var(--thm-white)] font-bold"> Skills </h3>
       {sortedSkills &&
         sortedSkills.map((skillitem) => (
@@ -41,7 +41,7 @@ function Skill({ skill, experience_in_year }: SkillType) {
   return (
     <Col xs={12} sm={6} className="skill-outline box-border py-1 min-width">
       <h4> {skill}</h4>
-      <div className="hairline-shadow rounded-md">
+      <div className="rounded-md">
         <div
           className={`skill-inner w-full rounded-md text-right`}
           style={{ maxWidth: `${widthPercentage}%` }}

@@ -31,13 +31,11 @@ function Profileflash() {
               <SocialConnect />
             </Col>
           </Row>
-          <Row></Row>
         </Col>
         <Col className="profile-image-container">
           <ProfileImage />
         </Col>
       </Row>
-
       <Skills />
     </Container>
   );

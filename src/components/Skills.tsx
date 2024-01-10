@@ -1,27 +1,30 @@
 import { useEffect, useLayoutEffect, useState } from "react";
 import useResumeContext from "../hooks/ResumeHooks";
 import { Col, Row } from "react-bootstrap";
-import { SkillType } from "../types/types";
-import { sort } from "../utils/utils";
+import { ResumeInterface, SkillType } from "../types/types";
+
+type SkillTypeArr = SkillType[];
 
 function Skills() {
-  const [sortedSkills, sortSkills] = useState([]);
-  const { skills } = useResumeContext();
-  const sortFn = (a, b) => {
+  const [sortedSkills, sortSkills] = useState<SkillTypeArr>();
+  const ResumeData: ResumeInterface = useResumeContext();
+  const sortFn = (a: SkillType, b: SkillType) => {
     return (a.experience_in_year - b.experience_in_year) * -1;
   };
 
   useEffect(() => {
-    const sortedskills = sort(skills, sortFn);
-    sortSkills([...sortedskills]);
-  }, [skills]);
+    // let sortedArray: SkillType[] = sort(ResumeData.skills, sortFn);
+    const sortedArray = ResumeData.skills.sort(sortFn);
+    sortSkills([...sortedArray]);
+  }, [ResumeData]);
 
   return (
     <Row>
       <h3 className="text-[var(--thm-white)] font-bold"> Skills </h3>
-      {sortedSkills.map((skillitem) => (
-        <Skill {...skillitem} key={skillitem.skill} />
-      ))}
+      {sortedSkills &&
+        sortedSkills.map((skillitem) => (
+          <Skill {...skillitem} key={skillitem.skill} />
+        ))}
     </Row>
   );
 }

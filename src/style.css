@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
     --thm-font: 'Quicksand', sans-serif;
     --thm-base: #2d3436;
@@ -10,6 +14,11 @@
     --thm-fb: #f6f6f6;
     --thm-f3: #f3f3f3;
 }
+
+.hairline-shadow{
+   box-shadow:  #CCCCCC 0px 0px 1px 0px
+}
+
 h5.profile-title {
     color: var(--thm-color);
     font-size: 30px;
@@ -17,7 +26,8 @@ h5.profile-title {
     line-height: 40px;
     text-transform: capitalize;
 }
-h2.profile-name  {
+
+h2.profile-name {
     color: var(--thm-white);
     text-transform: uppercase;
     font-weight: 700;
@@ -27,18 +37,10 @@ h2.profile-name  {
     text-transform: capitalize;
 
 }
-@media only screen and (min-width: 768px) {
-    .flash-container {
-        height: 100vh;
-    }
-}
 
-.social-connect ul li{
-    display: inline-block;
-}
-@media only screen and (max-width: 991px) {
-    .social-connect {
-        margin: 20px 0;
+@media screen and (max-width: 480px) {
+    .profile-image {
+      display: none;
     }
     .social-connect ul li a {
         height: 45px;
@@ -47,28 +49,45 @@ h2.profile-name  {
         font-size: 20px;
         margin: 0 10px auto auto;
     }
+  }
+@media only screen and (min-width: 768px) {
+    .flash-container {
+        height: auto;
+    }
 }
-    .social-connect ul li a {
-        display: inline-block;
-        height: 55px;
-        width: 55px;
-        line-height: 55px;
-        text-align: center;
-        color: var(--thm-white);
-        font-size: 25px;
-        margin: 0 20px auto auto;
-        background: var(--thm-color);
-        border-radius: 50%;
-        -moz-transition: all 0.3s ease-in-out 0s;
-        -ms-transition: all 0.3s ease-in-out 0s;
-        -o-transition: all 0.3s ease-in-out 0s;
-        -webkit-transition: all 0.5s ease-in-out 0s;
-        transition: all 0.3s ease-in-out 0s;
-    
+
+.social-connect ul li {
+    display: inline-block;
 }
+
+
+
+
+
+
+.social-connect ul li a {
+    display: inline-block;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: var(--thm-white);
+    font-size: 25px;
+    margin: 0 20px auto auto;
+    background: var(--thm-color);
+    border-radius: 50%;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -ms-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
 .social-connect ul li a:hover {
     background: var(--thm-white);
-    color: var(--thm-color);;
+    color: var(--thm-color);
+    ;
 }
 
 .container-fluid {
@@ -111,12 +130,26 @@ h2.profile-name  {
     border-radius: 125px;
 
 }
-.btn-outline{
+
+.btn-outline {
     border-color: var(--thm-color) !important;
+    color: var(--thm-white) !important;
+    margin-top:5px
+}
+
+.btn-outline:hover {
+    border-color: var(--thm-color) !important;
+    background-color: var(--thm-color) !important;
+    ;
     color: var(--thm-white) !important;
 }
-.btn-outline:hover{
-    border-color: var(--thm-color) !important;
-    background-color: var(--thm-color) !important;;
-    color: var(--thm-white) !important;
+
+
+.skill-inner {
+    color: var(--thm-ase);
+    padding-right: 5px;
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+    --tw-gradient-from: var(--thm-color) var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(99 102 241 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
